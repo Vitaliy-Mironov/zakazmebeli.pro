@@ -1,0 +1,7 @@
+﻿User-agent: *
+Disallow: /403/
+Disallow: /404/
+Disallow: /message.php
+Disallow: /admin/
+Host: https://zakazmebeli.pro
+Sitemap: https://zakazmebeli.pro/sitemap.xml

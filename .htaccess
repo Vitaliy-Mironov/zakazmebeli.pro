@@ -1,0 +1,5 @@
+AddType text/html .html .shtml .php
+
+# страницы ошибок
+ErrorDocument 403 /403/
+ErrorDocument 404 /404/

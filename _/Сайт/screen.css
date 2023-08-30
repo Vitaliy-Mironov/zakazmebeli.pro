@@ -1,0 +1,75 @@
+/* © Mironov V. A. https://vk.com/va.mironov */
+
+@font-face {
+	font-family: mironov;
+	src:	url('mironov.woff') format('woff'),
+			url('mironov.ttf') format('truetype');
+}
+
+* { 
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	background-color: #fff;
+	font-size: 12pt;
+	font-family: verdana, arial, sans-serif;
+	color: #333;
+}
+
+header {
+	display: block;
+}
+
+.logo {}
+
+nav {
+	display: block;
+}
+
+main {
+	display: block;
+}
+
+article {
+	display: block;
+}
+
+h1 {}
+
+p {}
+
+.onlyMobile {
+	display: none;
+}
+
+footer {
+	display: block;
+}
+
+.contactPhones {}
+
+.phoneNomberName {}
+
+.phoneNomberMTS {}
+
+.phoneNomberLife {}
+
+/* ministyles */
+.hidden { display: none  !important; }
+.red { color: red !important; }
+
+@media screen and (max-width:1023px) { /* tablet adaptation */ }
+
+.onlyMobile {
+	display: block;
+}
+
+@media screen and (max-width:767px) { /* smartphone adaptation */ }
+
+/* @media screen and (max-width:480px) {} */

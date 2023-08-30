@@ -1,0 +1,5 @@
+﻿User-agent: *
+
+Host: https://zakazmebeli.pro
+
+Sitemap: https://zakazmebeli.pro/sitemap.xml
